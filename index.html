@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Raditya Zidane — Portfolio</title>
+  <meta name="description"
+    content="I am a passionate student pursuing a career in software engineering and data science.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&family=DM+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav aria-label="Main">
+      <a class="brand" href="#home">Dizy's Portofolio</a>
+      <ul>
+        <li>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false"
+            aria-label="Switch to dark mode">
+            <span class="theme-toggle-dot" aria-hidden="true"></span>
+          </button>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HOME ========== -->
+    <section id="home" class="page-section reveal" aria-labelledby="home-title">
+      <div class="hero-text">
+        <div>
+          <p class="meta">This is Dizy's</p>
+          <h1 id="home-title" class="hero-title">Portfol<span class="hero-fixed">io</span></h1>
+        </div>
+        <div>
+          <p class="meta hero-cue">Scroll</p>
+        </div>
+      </div>
+      <div class="hero-images">
+        <figure class="frame a"><img src="assets/profile.jpeg" alt="Profile photo" onerror="this.remove()"></figure>
+        <figure class="frame b"><img src="assets/project1.png" alt="Selected project preview" loading="lazy"
+            onerror="this.remove()"></figure>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ME ========== -->
+    <section id="about" class="page-section about reveal" aria-labelledby="about-title">
+      <figure class="frame">
+        <img src="assets/profile2.jpeg" alt="Profile photo" loading="lazy" onerror="this.remove()">
+      </figure>
+      <div class="about-body">
+        <p class="meta">About me</p>
+        <h2 id="about-title" class="h2">Muhammad Raditya Zidane</h2>
+        <h3 class="h3">Known as AditZ or Dizy</h3>
+        <p class="lead">Hello World!</p>
+        <p>Information Technology student at Universitas Jember, future software engineer and data scientist.
+          Passionate about programming, data analysis, and problem-solving. I enjoy exploring new technologies and
+          applying them to real-world challenges.</p>
+        <br>
+        <p>Also i love play games so yeah feel free to <a class="plink" href="#contact">contact me</a> ;P</p>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="page-section projects" aria-labelledby="projects-title">
+      <div class="projects-head reveal">
+        <h2 id="projects-title" class="h2">Projects</h2>
+        <p class="meta">Selected work</p>
+      </div>
+
+      <article class="project p1 reveal">
+        <figure class="frame">
+          <div class="media"><img src="assets/project1.png" alt="Screenshot of the Manajemen Keuangan website"
+              loading="lazy" onerror="this.remove()"></div>
+          <figcaption class="meta">JavaScript, Node.js, Vercel, PostgreSQL</figcaption>
+        </figure>
+        <div class="info">
+          <p class="pnum">01</p>
+          <h3 class="ptitle">Manajemen Keuangan</h3>
+          <p>A open source personal finance management website.</p>
+          <a class="plink" href="https://github.com/Dyziz/Manajemen-Keuangan" target="_blank" rel="noopener noreferrer">View project</a>
+        </div>
+      </article>
+
+      <article class="project p2 reveal">
+        <div class="info">
+          <p class="pnum">02</p>
+          <h3 class="ptitle">CRUD Pelelangan</h3>
+          <p>A CRUD-based application related to auction management.</p>
+          <a class="plink" href="https://github.com/noid-aja/projekPBOPSQL" target="_blank" rel="noopener noreferrer">View project</a>
+        </div>
+        <figure class="frame">
+          <div class="media"><img src="assets/project2.jpeg" alt="Screenshot of the CRUD Pelelangan application"
+              loading="lazy" onerror="this.remove()"></div>
+          <figcaption class="meta">C#, PostgreSQL</figcaption>
+        </figure>
+      </article>
+
+      <article class="project p3 reveal">
+        <figure class="frame">
+          <div class="media"><img src="assets/project3.png"
+              alt="Screenshot of the CRUD Pertanian / Pinjam Meminjam application" loading="lazy"
+              onerror="this.remove()"></div>
+          <figcaption class="meta">Python, PostgreSQL</figcaption>
+        </figure>
+        <div class="info">
+          <p class="pnum">03</p>
+          <h3 class="ptitle">CRUD Pertanian / Pinjam Meminjam berbasis</h3>
+          <p>A CRUD application for farmers who want to manage borrowing and lending activities.</p>
+          <a class="plink" href="https://github.com/noid-aja/projek-algoooo" target="_blank" rel="noopener noreferrer">View project</a>
+        </div>
+      </article>
+
+      <article class="project p4 reveal">
+        <figure class="frame">
+          <div class="media"><img src="assets/project4.png" alt="Screenshot of the Telegram Financial Management Bot"
+              loading="lazy" onerror="this.remove()"></div>
+          <figcaption class="meta">Python, Telegram Bot API</figcaption>
+        </figure>
+        <div class="info">
+          <p class="pnum">04</p>
+          <h3 class="ptitle">Telegram Financial Management Bot</h3>
+          <p>A Telegram bot for financial management. It can also use an AI API to make financial input more effective.
+          </p>
+          <a class="plink" href="https://github.com/Dyziz/UangManageTele" target="_blank" rel="noopener noreferrer">View project</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="page-section reveal" aria-labelledby="skills-title">
+      <p class="meta">Skills</p>
+      <h2 id="skills-title" class="h2">Technical skills</h2>
+      <ol class="skills-list">
+        <li class="skill-item" tabindex="0">
+          <div class="skill-left">
+            <span class="skill-name">Python</span>
+          </div>
+          <div class="skill-logo" role="img" aria-label="Python logo">
+            <img class="logo-black" src="assets/python-black.svg" alt="" width="48" height="48" loading="lazy">
+            <img class="logo-white" src="assets/python-white.svg" alt="" width="48" height="48" loading="lazy">
+          </div>
+        </li>
+        <li class="skill-item" tabindex="0">
+          <div class="skill-left">
+            <span class="skill-name">C#</span>
+          </div>
+          <div class="skill-logo" role="img" aria-label="C# logo">
+            <img class="logo-black" src="assets/csharp-black.svg" alt="" width="48" height="48" loading="lazy">
+            <img class="logo-white" src="assets/csharp-white.svg" alt="" width="48" height="48" loading="lazy">
+          </div>
+        </li>
+        <li class="skill-item" tabindex="0">
+          <div class="skill-left">
+            <span class="skill-name">PostgreSQL</span>
+          </div>
+          <div class="skill-logo" role="img" aria-label="PostgreSQL logo">
+            <img class="logo-black" src="assets/postgresql-black.svg" alt="" width="48" height="48" loading="lazy">
+            <img class="logo-white" src="assets/postgresql-white.svg" alt="" width="48" height="48" loading="lazy">
+          </div>
+        </li>
+        <li class="skill-item" tabindex="0">
+          <div class="skill-left">
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-logo" role="img" aria-label="JavaScript logo">
+            <img class="logo-black" src="assets/javascript-black.svg" alt="" width="48" height="48" loading="lazy">
+            <img class="logo-white" src="assets/javascript-white.svg" alt="" width="48" height="48" loading="lazy">
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="page-section reveal" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="closing">Welp, thats it.</h2>
+      <br>
+      <p class="meta">Anyway, here's below my Contact</p>
+      <ul class="links">
+        <li><a href="mailto:raditya.zidane12@gmail.com" target="_blank" rel="noopener noreferrer">raditya.zidane12@gmail.com</a></li>
+        <li><a href="https://github.com/Dyziz" target="_blank" rel="noopener noreferrer">github.com/Dyziz</a></li>
+        <li><a href="https://linkedin.com/in/muhammad-raditya-zidane" target="_blank" rel="noopener noreferrer">linkedin.com/in/muhammad-raditya-zidane</a></li>
+        <li><a href="https://instagram.com/dizyziz" target="_blank" rel="noopener noreferrer">instagram.com/dizyziz</a></li>
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
